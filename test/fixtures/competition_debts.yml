@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  sour_of_debt: MyString
+  debt_amount: 9.99
+  competition_id: 1
+  varsity_member_id: 1
+
+two:
+  sour_of_debt: MyString
+  debt_amount: 9.99
+  competition_id: 1
+  varsity_member_id: 1
