@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  number_of_contingent: 1
+  arqp_contingent_debater: 9.99
+  arqp_contingent_adjudicator: 9.99
+  arqp_non-contingent: 9.99
+  presidential_approval_status: MyString
+  start_date: 2015-02-19
+  end_date: 2015-02-19
+  quota_point_monetary_value: 9.99
+
+two:
+  name: MyString
+  number_of_contingent: 1
+  arqp_contingent_debater: 9.99
+  arqp_contingent_adjudicator: 9.99
+  arqp_non-contingent: 9.99
+  presidential_approval_status: MyString
+  start_date: 2015-02-19
+  end_date: 2015-02-19
+  quota_point_monetary_value: 9.99
