@@ -14,3 +14,11 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+db/migrate/20150219081506_create_competition_debts.rb~
+
+db/migrate/20150219081506_create_competition_debts.rb~
+
+db/migrate/20150219083415_create_competitions.rb~
+
+db/migrate/20150219081506_create_competition_debts.rb~
