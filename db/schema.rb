@@ -11,16 +11,30 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150219081506) do
+ActiveRecord::Schema.define(version: 20150219083415) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "competition_debts", force: true do |t|
-    t.string   "sour_of_debt"
+    t.string   "source_of_debt"
     t.decimal  "debt_amount"
     t.integer  "competition_id"
     t.integer  "varsity_member_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "competitions", force: true do |t|
+    t.string   "name"
+    t.integer  "number_of_contingent"
+    t.decimal  "arqp_contingent_debater"
+    t.decimal  "arqp_contingent_adjudicator"
+    t.decimal  "arqp_non_contingent"
+    t.string   "presidential_approval_status"
+    t.date     "start_date"
+    t.date     "end_date"
+    t.decimal  "quota_point_monetary_value"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
