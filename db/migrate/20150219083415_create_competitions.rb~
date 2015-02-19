@@ -5,7 +5,7 @@ class CreateCompetitions < ActiveRecord::Migration
       t.integer :number_of_contingent
       t.decimal :arqp_contingent_debater
       t.decimal :arqp_contingent_adjudicator
-      t.decimal :arqp_non_contingent
+      t.decimal :arqp_non-contingent
       t.string :presidential_approval_status
       t.date :start_date
       t.date :end_date
